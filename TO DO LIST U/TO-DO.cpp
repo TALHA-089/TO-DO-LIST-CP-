@@ -51,15 +51,15 @@ int main()
 }
 void ADD_TASK()
 {
-
-	cout << "\n\nEnter Your Task: ";
-	getline(cin, LIST[i]);
 	if (i > 9)
 	{
 		cout << "\nLIST IS FULL.\nPLEASE REMOVE A TASK FIRST.";
 	}
+	
 	else
 	{
+		cout << "\n\nEnter Your Task: ";
+		getline(cin, LIST[i]);
 		cout << "\n\nTASK ADDED TO THE LIST.";
 	}
 	i++;
